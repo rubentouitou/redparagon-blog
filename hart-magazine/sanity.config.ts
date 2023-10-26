@@ -1,14 +1,14 @@
-import {defineConfig} from 'sanity'
-import {deskTool} from 'sanity/desk'
-import {visionTool} from '@sanity/vision'
-import {schemaTypes} from './schemas'
+import { defineConfig } from 'sanity'
+import { deskTool } from 'sanity/desk'
+import { visionTool } from '@sanity/vision'
+import { schemaTypes } from './schemas'
 
 export default defineConfig({
   name: 'default',
-  title: 'HART Magazine',
+  title: 'RED Paragon',
 
-  projectId: '7jb6yrlj',
-  dataset: 'hm',
+  projectId: 'o114okr0',
+  dataset: 'production',
 
   plugins: [deskTool(), visionTool()],
 

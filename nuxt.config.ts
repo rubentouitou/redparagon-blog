@@ -16,8 +16,8 @@ export default defineNuxtConfig({
     ],
   ],
   sanity: {
-    projectId: '7jb6yrlj',
-    dataset: 'hm',
+    projectId: 'o114okr0',
+    dataset: 'production',
     useCdn: true, // `false` if you want to ensure fresh data
     apiVersion: "2021-03-25",
   },
