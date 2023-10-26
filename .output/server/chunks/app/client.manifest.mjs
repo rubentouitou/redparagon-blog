@@ -6,23 +6,23 @@ const client_manifest = {
     "preload": true,
     "file": "_plugin-vue_export-helper.c27b6911.js"
   },
-  "_browser.696a88ad.js": {
+  "_browser.61d57055.js": {
     "resourceType": "script",
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "browser.696a88ad.js",
+    "file": "browser.61d57055.js",
     "imports": [
       "node_modules/nuxt/dist/app/entry.js"
     ],
     "isDynamicEntry": true
   },
-  "_groq.c87be74f.js": {
+  "_groq.e544c82d.js": {
     "resourceType": "script",
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "groq.c87be74f.js",
+    "file": "groq.e544c82d.js",
     "imports": [
       "node_modules/nuxt/dist/app/entry.js"
     ]
@@ -31,7 +31,7 @@ const client_manifest = {
     "resourceType": "image",
     "prefetch": true,
     "mimeType": "image/png",
-    "file": "logo.4bda7eec.png",
+    "file": "logo.2453d93c.png",
     "src": "logo.png"
   },
   "node_modules/.cache/nuxt-google-fonts/fonts/IBM_Plex_Mono-500-1.woff2": {
@@ -97,127 +97,127 @@ const client_manifest = {
   "node_modules/.cache/nuxt-google-fonts/fonts/Inter-500-11.woff2": {
     "resourceType": "font",
     "mimeType": "font/woff2",
-    "file": "Inter-500-11.848492d3.woff2",
+    "file": "Inter-500-11.1c3007b8.woff2",
     "src": "node_modules/.cache/nuxt-google-fonts/fonts/Inter-800-25.woff2"
   },
   "node_modules/.cache/nuxt-google-fonts/fonts/Inter-500-12.woff2": {
     "resourceType": "font",
     "mimeType": "font/woff2",
-    "file": "Inter-500-12.262a1054.woff2",
+    "file": "Inter-500-12.eba94878.woff2",
     "src": "node_modules/.cache/nuxt-google-fonts/fonts/Inter-800-26.woff2"
   },
   "node_modules/.cache/nuxt-google-fonts/fonts/Inter-500-13.woff2": {
     "resourceType": "font",
     "mimeType": "font/woff2",
-    "file": "Inter-500-13.fe977ddb.woff2",
-    "src": "node_modules/.cache/nuxt-google-fonts/fonts/Inter-700-20.woff2"
+    "file": "Inter-500-13.81f77e51.woff2",
+    "src": "node_modules/.cache/nuxt-google-fonts/fonts/Inter-800-27.woff2"
   },
   "node_modules/.cache/nuxt-google-fonts/fonts/Inter-500-14.woff2": {
     "resourceType": "font",
     "mimeType": "font/woff2",
-    "file": "Inter-500-14.89b4a3fe.woff2",
+    "file": "Inter-500-14.d92c6cbc.woff2",
     "src": "node_modules/.cache/nuxt-google-fonts/fonts/Inter-800-28.woff2"
   },
   "node_modules/.cache/nuxt-google-fonts/fonts/Inter-500-15.woff2": {
     "resourceType": "font",
     "mimeType": "font/woff2",
-    "file": "Inter-500-15.ac4e131c.woff2",
+    "file": "Inter-500-15.15df7612.woff2",
     "src": "node_modules/.cache/nuxt-google-fonts/fonts/Inter-800-29.woff2"
   },
   "node_modules/.cache/nuxt-google-fonts/fonts/Inter-500-16.woff2": {
     "resourceType": "font",
     "mimeType": "font/woff2",
-    "file": "Inter-500-16.45606f83.woff2",
+    "file": "Inter-500-16.a2bfd9fe.woff2",
     "src": "node_modules/.cache/nuxt-google-fonts/fonts/Inter-800-30.woff2"
   },
   "node_modules/.cache/nuxt-google-fonts/fonts/Inter-500-17.woff2": {
     "resourceType": "font",
     "mimeType": "font/woff2",
-    "file": "Inter-500-17.450f3ba4.woff2",
+    "file": "Inter-500-17.88df0b5a.woff2",
     "src": "node_modules/.cache/nuxt-google-fonts/fonts/Inter-800-31.woff2"
   },
   "node_modules/.cache/nuxt-google-fonts/fonts/Inter-700-18.woff2": {
     "resourceType": "font",
     "mimeType": "font/woff2",
-    "file": "Inter-500-11.848492d3.woff2",
+    "file": "Inter-500-11.1c3007b8.woff2",
     "src": "node_modules/.cache/nuxt-google-fonts/fonts/Inter-800-25.woff2"
   },
   "node_modules/.cache/nuxt-google-fonts/fonts/Inter-700-19.woff2": {
     "resourceType": "font",
     "mimeType": "font/woff2",
-    "file": "Inter-500-12.262a1054.woff2",
+    "file": "Inter-500-12.eba94878.woff2",
     "src": "node_modules/.cache/nuxt-google-fonts/fonts/Inter-800-26.woff2"
   },
   "node_modules/.cache/nuxt-google-fonts/fonts/Inter-700-20.woff2": {
     "resourceType": "font",
     "mimeType": "font/woff2",
-    "file": "Inter-500-13.fe977ddb.woff2",
-    "src": "node_modules/.cache/nuxt-google-fonts/fonts/Inter-700-20.woff2"
+    "file": "Inter-500-13.81f77e51.woff2",
+    "src": "node_modules/.cache/nuxt-google-fonts/fonts/Inter-800-27.woff2"
   },
   "node_modules/.cache/nuxt-google-fonts/fonts/Inter-700-21.woff2": {
     "resourceType": "font",
     "mimeType": "font/woff2",
-    "file": "Inter-500-14.89b4a3fe.woff2",
+    "file": "Inter-500-14.d92c6cbc.woff2",
     "src": "node_modules/.cache/nuxt-google-fonts/fonts/Inter-800-28.woff2"
   },
   "node_modules/.cache/nuxt-google-fonts/fonts/Inter-700-22.woff2": {
     "resourceType": "font",
     "mimeType": "font/woff2",
-    "file": "Inter-500-15.ac4e131c.woff2",
+    "file": "Inter-500-15.15df7612.woff2",
     "src": "node_modules/.cache/nuxt-google-fonts/fonts/Inter-800-29.woff2"
   },
   "node_modules/.cache/nuxt-google-fonts/fonts/Inter-700-23.woff2": {
     "resourceType": "font",
     "mimeType": "font/woff2",
-    "file": "Inter-500-16.45606f83.woff2",
+    "file": "Inter-500-16.a2bfd9fe.woff2",
     "src": "node_modules/.cache/nuxt-google-fonts/fonts/Inter-800-30.woff2"
   },
   "node_modules/.cache/nuxt-google-fonts/fonts/Inter-700-24.woff2": {
     "resourceType": "font",
     "mimeType": "font/woff2",
-    "file": "Inter-500-17.450f3ba4.woff2",
+    "file": "Inter-500-17.88df0b5a.woff2",
     "src": "node_modules/.cache/nuxt-google-fonts/fonts/Inter-800-31.woff2"
   },
   "node_modules/.cache/nuxt-google-fonts/fonts/Inter-800-25.woff2": {
     "resourceType": "font",
     "mimeType": "font/woff2",
-    "file": "Inter-500-11.848492d3.woff2",
+    "file": "Inter-500-11.1c3007b8.woff2",
     "src": "node_modules/.cache/nuxt-google-fonts/fonts/Inter-800-25.woff2"
   },
   "node_modules/.cache/nuxt-google-fonts/fonts/Inter-800-26.woff2": {
     "resourceType": "font",
     "mimeType": "font/woff2",
-    "file": "Inter-500-12.262a1054.woff2",
+    "file": "Inter-500-12.eba94878.woff2",
     "src": "node_modules/.cache/nuxt-google-fonts/fonts/Inter-800-26.woff2"
   },
   "node_modules/.cache/nuxt-google-fonts/fonts/Inter-800-27.woff2": {
     "resourceType": "font",
     "mimeType": "font/woff2",
-    "file": "Inter-500-13.fe977ddb.woff2",
-    "src": "node_modules/.cache/nuxt-google-fonts/fonts/Inter-700-20.woff2"
+    "file": "Inter-500-13.81f77e51.woff2",
+    "src": "node_modules/.cache/nuxt-google-fonts/fonts/Inter-800-27.woff2"
   },
   "node_modules/.cache/nuxt-google-fonts/fonts/Inter-800-28.woff2": {
     "resourceType": "font",
     "mimeType": "font/woff2",
-    "file": "Inter-500-14.89b4a3fe.woff2",
+    "file": "Inter-500-14.d92c6cbc.woff2",
     "src": "node_modules/.cache/nuxt-google-fonts/fonts/Inter-800-28.woff2"
   },
   "node_modules/.cache/nuxt-google-fonts/fonts/Inter-800-29.woff2": {
     "resourceType": "font",
     "mimeType": "font/woff2",
-    "file": "Inter-500-15.ac4e131c.woff2",
+    "file": "Inter-500-15.15df7612.woff2",
     "src": "node_modules/.cache/nuxt-google-fonts/fonts/Inter-800-29.woff2"
   },
   "node_modules/.cache/nuxt-google-fonts/fonts/Inter-800-30.woff2": {
     "resourceType": "font",
     "mimeType": "font/woff2",
-    "file": "Inter-500-16.45606f83.woff2",
+    "file": "Inter-500-16.a2bfd9fe.woff2",
     "src": "node_modules/.cache/nuxt-google-fonts/fonts/Inter-800-30.woff2"
   },
   "node_modules/.cache/nuxt-google-fonts/fonts/Inter-800-31.woff2": {
     "resourceType": "font",
     "mimeType": "font/woff2",
-    "file": "Inter-500-17.450f3ba4.woff2",
+    "file": "Inter-500-17.88df0b5a.woff2",
     "src": "node_modules/.cache/nuxt-google-fonts/fonts/Inter-800-31.woff2"
   },
   "node_modules/.cache/nuxt-google-fonts/fonts/PT_Serif-400-32.woff2": {
@@ -281,7 +281,7 @@ const client_manifest = {
     "prefetch": true,
     "preload": true,
     "css": [],
-    "file": "error-404.143cd643.js",
+    "file": "error-404.18fcf2c2.js",
     "imports": [
       "node_modules/nuxt/dist/app/entry.js",
       "__plugin-vue_export-helper.c27b6911.js"
@@ -308,7 +308,7 @@ const client_manifest = {
     "prefetch": true,
     "preload": true,
     "css": [],
-    "file": "error-500.b7447d7e.js",
+    "file": "error-500.a98c298b.js",
     "imports": [
       "node_modules/nuxt/dist/app/entry.js",
       "__plugin-vue_export-helper.c27b6911.js"
@@ -335,17 +335,17 @@ const client_manifest = {
     "prefetch": true,
     "preload": true,
     "assets": [
-      "logo.4bda7eec.png"
+      "logo.2453d93c.png"
     ],
     "css": [
       "entry.307ed5aa.css"
     ],
     "dynamicImports": [
-      "_browser.696a88ad.js",
+      "_browser.61d57055.js",
       "node_modules/@nuxt/ui-templates/dist/templates/error-404.vue",
       "node_modules/@nuxt/ui-templates/dist/templates/error-500.vue"
     ],
-    "file": "entry.36696e75.js",
+    "file": "entry.2848eccb.js",
     "isEntry": true,
     "src": "node_modules/nuxt/dist/app/entry.js",
     "_globalCSS": true
@@ -356,8 +356,8 @@ const client_manifest = {
     "prefetch": true,
     "preload": true
   },
-  "logo.4bda7eec.png": {
-    "file": "logo.4bda7eec.png",
+  "logo.2453d93c.png": {
+    "file": "logo.2453d93c.png",
     "resourceType": "image",
     "prefetch": true,
     "mimeType": "image/png"
@@ -375,9 +375,9 @@ const client_manifest = {
     "prefetch": true,
     "preload": true,
     "css": [],
-    "file": "index.87239d81.js",
+    "file": "index.e72eb4ae.js",
     "imports": [
-      "_groq.c87be74f.js",
+      "_groq.e544c82d.js",
       "__plugin-vue_export-helper.c27b6911.js",
       "node_modules/nuxt/dist/app/entry.js"
     ],
@@ -403,9 +403,9 @@ const client_manifest = {
     "prefetch": true,
     "preload": true,
     "css": [],
-    "file": "_slug_.e54f9519.js",
+    "file": "_slug_.278d4380.js",
     "imports": [
-      "_groq.c87be74f.js",
+      "_groq.e544c82d.js",
       "node_modules/nuxt/dist/app/entry.js",
       "__plugin-vue_export-helper.c27b6911.js"
     ],

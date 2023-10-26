@@ -1116,33 +1116,33 @@ function _mergeTransitionProps(routeProps) {
   }));
   return defu(..._props);
 }
-const _imports_0 = "" + __buildAssetsURL("logo.4bda7eec.png");
+const _imports_0 = "" + __buildAssetsURL("logo.2453d93c.png");
 const Site = {
   // Website name, for copyright and more.
-  name: "Hartmag",
+  name: "Red Paragon",
   // The base of the blog (important for slugs)
-  url: "https://hartmag.uk",
+  url: "https://blog.paragon.red",
   // The website you want people to visit
-  goal: "https://hartmag.uk",
+  goal: "https://paragon.red",
   // SEO (Meta) Title
-  googleName: "Hartmag - Technology and Design Magazine",
+  googleName: "Blog",
   // SEO (Meta) Description
-  description: "From cutting-edge artificial intelligence to beautiful digital design, we explore the ways in which technology and design are shaping the world around us. Our team of experts and industry leaders bring readers in-depth analysis and commentary on the latest trends and developments, as well as interviews with key players in the field. Whether you re a technology enthusiast or a design professional, HART Magazine is the go-to source for staying informed on the latest and greatest in these dynamic industries.",
+  description: "Our comprehensive design and management services focus on security, reliability, and speed so you can focus on growing your business. Hosting, domain name, email addresses, maintenance, online payments.",
   // SEO (Meta) Keywords
-  keywords: "Technology, design, innovation, gadgets, architecture, trends, developments, industry leaders, technology advancements, cutting-edge, design professionals, design trends, technology enthusiasts, technology commentary, industry insights, design insights, product design, user experience, user interface, digital design, graphic design, engineering, research, future technology, futurism, emerging technology, artificial intelligence, virtual reality, augmented reality, sustainable technology, green technology, smart city, IoT",
+  keywords: "website management, website maintenance, online payments, website design, enterprise website management, site internet, managment de site internet pour entreprises, HTML, CSS, JavaScript",
   // Absolute path to the favicon image
-  favicon: "https://hartmag.uk/favicon.png",
+  favicon: "https://paragon.red/images/favicon.png",
   // Website language
   language: "en-US",
   // GA Code
-  analytics: "G-NJ6N9BDHSY",
+  analytics: "",
   // Homepage content
   h1: "Explore the latest in technology and design.",
   p: "Explore the ways in which technology and design are shaping the world around us.",
   // Sales content
-  salesText: "Subscribe to our newsletter to get the latest news and updates delivered straight to your inbox.",
+  salesText: "Discover our website design and management services",
   // Sales Action (For buttons)
-  salesAction: "Subscribe"
+  salesAction: "Learn more"
 };
 const _sfc_main$2 = {
   __name: "app",
@@ -1151,7 +1151,7 @@ const _sfc_main$2 = {
     const year = (/* @__PURE__ */ new Date()).getFullYear();
     return (_ctx, _push, _parent, _attrs) => {
       const _component_NuxtPage = __nuxt_component_0;
-      _push(`<!--[--><header class="header"><a class="header__title" href="/"><img${ssrRenderAttr("src", _imports_0)} alt="Logo" width="80"></a></header><main>`);
+      _push(`<!--[--><header class="header"><a class="header__title" href="/"><img${ssrRenderAttr("src", _imports_0)} alt="Logo" width="150"></a></header><main>`);
       _push(ssrRenderComponent(_component_NuxtPage, null, null, _parent));
       _push(`</main><footer class="footer"><p> © ${ssrInterpolate(unref(year))} ${ssrInterpolate(unref(Site).name)}. All Rights Reserved. Various trademarks held by their respective owners. </p></footer><!--]-->`);
     };
