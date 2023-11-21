@@ -3,17 +3,17 @@
 /* Base Variables */
 :root {
   /* Brand color */
-  --primary-color: #3f50b5;
-  --primary-color-hover: #3f50b5;
+  --primary-color: #000;
+  --primary-color-hover: #000;
 
   /* Background colors (Application, elements and windows) */
-  --primary-background-color: #3f50b5;
+  --primary-background-color: #000;
   --secondary-background-color: #ddd;
 
   /* Fonts */
   --primary-font: "";
   --primary-font-color: #4d5373;
-  --strong-font-color: #3f50b5;
+  --strong-font-color: #000;
 
   /* Border Radius */
   --primary-border-radius: 5px;
