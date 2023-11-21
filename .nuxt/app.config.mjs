@@ -1,6 +1,6 @@
 
 import { updateAppConfig } from '#app'
-import { defuFn } from '/Users/ruben/GitHub/redparagon-blog/node_modules/defu/dist/defu.mjs'
+import { defuFn } from '/Users/ruben/GitHub/smartflights-blog/node_modules/defu/dist/defu.mjs'
 
 const inlineConfig = {}
 

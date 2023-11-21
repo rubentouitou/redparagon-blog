@@ -4,46 +4,10 @@ import { Site } from "@/variables"
 
 <template>
     <div class="floatGoal">
-        <h3>{{ Site.name }}</h3>
+        <h3>RED Paragon</h3>
         <p>{{ Site.salesText }}</p>
 
-
-        <div id="mc_embed_shell">
-
-            <div id="mc_embed_signup">
-                <form
-                    action="https://hartmag.us21.list-manage.com/subscribe/post?u=4c6a61b84bc373c09d9189b6f&amp;id=9717664514&amp;f_id=00b8e2e6f0"
-                    method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate"
-                    target="_self" novalidate="">
-                    <div id="mc_embed_signup_scroll">
-                        <div class="mc-field-group">
-                            <input type="email" name="EMAIL" class="required email" placeholder="Email" id="mce-EMAIL"
-                                required="" value=""><span id="mce-EMAIL-HELPERTEXT" class="helper_text"></span>
-                        </div>
-                        <div id="mce-responses" class="clear foot">
-                            <div class="response" id="mce-error-response" style="display: none;"></div>
-                            <div class="response" id="mce-success-response" style="display: none;"></div>
-                        </div>
-                        <div aria-hidden="true" style="position: absolute; left: -5000px;">
-                            /* real people should not fill this in and expect good things - do not remove this or risk form
-                            bot signups */
-                            <input type="text" name="b_4c6a61b84bc373c09d9189b6f_9717664514" tabindex="-1" value="">
-                        </div>
-                        <div class="optionalParent">
-                            <div class="clear foot">
-                                <input type="submit" name="subscribe" id="mc-embedded-subscribe" class="button"
-                                    value="Subscribe">
-                            </div>
-                        </div>
-                    </div>
-                </form>
-            </div>
-        </div>
-
-
-
-
-        <!--<span>{{ Site.salesAction }}</span> -->
+        <a href="https://paragon.red/contact">{{ Site.salesAction }}</a>
     </div>
 </template>
 
@@ -56,9 +20,11 @@ import { Site } from "@/variables"
     width: calc((100% - 900px)/2);
     background: var(--primary-background-color);
     z-index: 1;
+    border-top-right-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
     border-radius: var(--primary-border-radius);
     margin-top: 20%;
-    color: var(--primary-font-color);
+    color: #fff;
     padding: 18px;
     max-width: 300px;
     overflow: hidden;
@@ -83,11 +49,29 @@ import { Site } from "@/variables"
     width: 100%;
 }
 
+p {
+    margin-top: 3px;
+}
+
+h3 {
+    margin-bottom: 5px !important;
+}
+
+a {
+    background: #fff;
+    color: var(--primary-color);
+    padding: 5px 12px;
+    white-space: nowrap;
+    border-radius: 5px;
+    text-decoration: none !important;
+}
+
 .email {
     cursor: text !important;
 }
 
-@media (max-width: 1125px) {
+
+@media (max-width: 1105px) {
     .floatGoal {
         display: none;
     }

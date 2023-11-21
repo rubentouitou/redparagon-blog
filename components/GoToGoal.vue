@@ -5,12 +5,7 @@ import { Site } from "@/variables"
 <template>
     <div class="backlink">
         <a :href="Site.goal">
-            <svg xmlns="http://www.w3.org/2000/svg" class="shareicon" width="24" height="24" viewBox="0 0 24 24"
-                stroke-width="2" stroke="#bbb" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                <path d="M13 7h-6l4 5l-4 5h6l4 -5z"></path>
-            </svg>
-            {{ Site.salesText }}</a>
+            {{ Site.salesText }} <span class="btn">{{ Site.salesAction }}</span></a>
     </div>
 </template>
 
@@ -18,12 +13,21 @@ import { Site } from "@/variables"
 .shareicon {
     margin-bottom: -6px;
     width: 40px;
+    filter: brightness(2.1);
 }
 
 a {
-    color: var(--primary-font-color);
+    color: #fff;
     font-weight: 500;
     text-decoration: none;
+}
+
+.btn {
+    background: #fff;
+    color: var(--primary-color);
+    padding: 5px 12px;
+    border-radius: 5px;
+    margin-left: 5px;
 }
 
 .backlink {

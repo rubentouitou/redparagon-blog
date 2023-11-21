@@ -31,7 +31,7 @@ export default {
 
     <Title>{{ post.title }}</Title>
     <Meta name="description" :content="post.excerpt" />
-    <Meta name="keywords" :content="post.title" />
+    <Meta name="keywords" :content="Site.keywords" />
     <Meta property="og:url" :content="path" />
     <Meta property="og:type" content="website" />
     <Meta property="og:title" :content="post.title" />
@@ -191,3 +191,4 @@ export default {
   margin-bottom: 20px !important;
 }
 </style>
+

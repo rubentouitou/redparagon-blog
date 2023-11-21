@@ -24,6 +24,7 @@ const { data: posts } = await useSanityQuery<Post[]>(query);
   </Head>
 
   <section class="posts">
+    <FloatGoal class="float-home" />
     <div class='box'>
       <div class='wave -one'></div>
       <div class='wave -two'></div>
@@ -59,4 +60,9 @@ const { data: posts } = await useSanityQuery<Post[]>(query);
   margin-bottom: 50px;
   font-size: 17px !important;
 }
+
+.float-home {
+  width: calc((100% - 974px)/2) !important;
+}
 </style>
+

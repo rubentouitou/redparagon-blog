@@ -74,6 +74,7 @@ const props = defineProps<{
 .shareicon {
     margin-bottom: -6px;
     width: 40px;
+    filter: brightness(0.5);
 }
 
 p {

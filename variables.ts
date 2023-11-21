@@ -1,25 +1,25 @@
 export const Site = {
 
   // Website name, for copyright and more.
-  name: 'Red Paragon',
+  name: 'RED Paragon',
 
   // The base of the blog (important for slugs)
-  url: 'https://blog.paragon.red',
+  url: 'https://articles.paragon.red',
 
   // The website you want people to visit
-  goal: 'https://paragon.red',
+  goal: 'https://paragon.red/contact',
 
   // SEO (Meta) Title
-  googleName: 'Blog',
+  googleName: 'Articles',
 
   // SEO (Meta) Description
-  description: 'Our comprehensive design and management services focus on security, reliability, and speed so you can focus on growing your business. Hosting, domain name, email addresses, maintenance, online payments.',
+  description: 'At Red Paragon, we transcend the ordinary, sculpting digital masterpieces that resonate with your brand\'s essence. Our team of seasoned designers and developers harness the power of cutting-edge technologies to breathe life into your vision. From sleek and responsive designs to robust and scalable functionalities, we create websites that not only stand out but also stand the test of time.',
 
   // SEO (Meta) Keywords
-  keywords: 'website management, website maintenance, online payments, website design, enterprise website management, site internet, managment de site internet pour entreprises, HTML, CSS, JavaScript',
+  keywords: 'website design, web development, responsive design, custom websites, UX/UI design, digital solutions, online presence, website maintenance, mobile-friendly sites, web optimization, e-commerce websites, content management systems, SEO integration, user experience, front-end development, back-end development, website architecture, web hosting, domain management, website security, ongoing support, website updates, CMS customization, website performance, cross-browser compatibility, e-commerce solutions, website redesign, scalable websites, innovative design, digital strategy, online branding, website analytics, user engagement, website enhancements, reliable hosting, content updates, security patches, website backups, technical support, website scalability, SEO-friendly coding, interactive web elements, modern web technologies, responsive frameworks, web project management, quality assurance, website deployment, digital transformation, web presence optimization, website speed optimization, continuous improvement',
 
   // Absolute path to the favicon image
-  favicon: 'https://paragon.red/images/favicon.png',
+  favicon: 'https://paragon.red/img/favicon.png',
 
   // Website language
   language: 'en-US',
@@ -28,12 +28,12 @@ export const Site = {
   analytics: '',
 
   // Homepage content
-  h1: 'Explore the latest in technology and design.',
-  p: 'Explore the ways in which technology and design are shaping the world around us.',
+  h1: 'RED Paragon: Crafting Digital Masterpieces',
+  p: 'Elevate your digital presence with Red Paragon.',
 
   // Sales content
-  salesText: 'Discover our website design and management services',
+  salesText: 'Get the best website for your business',
 
   // Sales Action (For buttons)
-  salesAction: 'Learn more',
+  salesAction: 'Get started today',
 }

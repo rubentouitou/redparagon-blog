@@ -9,8 +9,15 @@ const year = (new Date()).getFullYear()
 <template>
   <header class="header">
     <a class="header__title" href="/">
-      <img src="@/logo.png" alt="Logo" width="150" />
+      <img src="@/logo-white.svg" alt="Logo" width="150" />
+      <span style="color: rgb(187 196 255);
+    margin-top: 9px;
+    margin-left: 10px;
+    /* display: contents; */
+    /* padding-bottom: 84px; */
+    position: absolute;" class="no-mobile">Articles</span>
     </a>
+    <a href="https://paragon.red/contact" class="ai-search btn">Get started today</a>
   </header>
   <main>
     <NuxtPage />
@@ -23,11 +30,21 @@ const year = (new Date()).getFullYear()
 </template>
 
 <style>
+.ai-search {
+  position: absolute;
+  right: 0;
+  top: 0;
+  margin-top: 29px;
+  margin-right: 20px;
+  color: #fff;
+  text-decoration: none;
+}
+
 .header {
   display: flex;
   padding: 0 var(--space-1);
   border-bottom: 1px solid #ced2d9;
-
+  width: calc(100% - 40px) !important;
   z-index: 10;
   background: var(--white);
   position: fixed;
@@ -48,6 +65,7 @@ const year = (new Date()).getFullYear()
 
 .footer {
   display: flex;
+  color: #fff !important;
   justify-content: flex-end;
   padding: 0 var(--space-3);
 
