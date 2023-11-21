@@ -9,7 +9,7 @@ const year = (new Date()).getFullYear()
 <template>
   <header class="header">
     <a class="header__title" href="/">
-      <img src="@/logo-white.svg" alt="Logo" width="150" />
+      <img src="@/logo.png" alt="Logo" width="150" />
       <span style="color: rgb(187 196 255);
     margin-top: 9px;
     margin-left: 10px;
