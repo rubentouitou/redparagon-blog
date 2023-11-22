@@ -7,7 +7,7 @@ export const Site = {
   url: 'https://articles.paragon.red',
 
   // The website you want people to visit
-  goal: 'https://paragon.red/contact',
+  goal: 'https://paragon.red',
 
   // SEO (Meta) Title
   googleName: 'Articles',
@@ -32,7 +32,7 @@ export const Site = {
   p: 'Elevate your digital presence with Red Paragon.',
 
   // Sales content
-  salesText: 'Get the best website for your business',
+  salesText: 'Get the perfect website for your business',
 
   // Sales Action (For buttons)
   salesAction: 'Get started today',
