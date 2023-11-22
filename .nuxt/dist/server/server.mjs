@@ -1,1 +1,1 @@
-export { default } from "file:///Users/ruben/GitHub/smartflights-blog/node_modules/@nuxt/vite-builder/dist/runtime/vite-node.mjs"
+export { default } from "file:///Users/ruben/GitHub/redparagon-blog/node_modules/@nuxt/vite-builder/dist/runtime/vite-node.mjs"

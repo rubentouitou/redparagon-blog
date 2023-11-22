@@ -7,12 +7,12 @@
     "module": true,
     "resourceType": "script"
   },
-  "/Users/ruben/GitHub/smartflights-blog/node_modules/nuxt/dist/app/entry.js": {
+  "/Users/ruben/GitHub/redparagon-blog/node_modules/nuxt/dist/app/entry.js": {
     "resourceType": "script",
     "module": true,
     "prefetch": true,
     "preload": true,
     "isEntry": true,
-    "file": "/Users/ruben/GitHub/smartflights-blog/node_modules/nuxt/dist/app/entry.js"
+    "file": "/Users/ruben/GitHub/redparagon-blog/node_modules/nuxt/dist/app/entry.js"
   }
 }

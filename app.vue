@@ -13,8 +13,6 @@ const year = (new Date()).getFullYear()
       <span style="color: #fff;
     margin-top: 4px;
     margin-left: 10px;
-    /* display: contents; */
-    /* padding-bottom: 84px; */
     position: absolute;" class="no-mobile">Articles</span>
     </a>
     <a href="https://paragon.red/contact" class="ai-search btn">Get started today</a>

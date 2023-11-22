@@ -1,31 +1,31 @@
-globalThis._importMeta_ = { url: import.meta.url, env: process.env }; import 'file:///Users/ruben/GitHub/smartflights-blog/node_modules/node-fetch-native/dist/polyfill.mjs';
+globalThis._importMeta_={url:import.meta.url,env:process.env};import 'file:///Users/ruben/GitHub/redparagon-blog/node_modules/node-fetch-native/dist/polyfill.mjs';
 import { Server } from 'node:http';
 import { tmpdir } from 'node:os';
 import { join } from 'node:path';
 import { mkdirSync } from 'node:fs';
 import { parentPort, threadId } from 'node:worker_threads';
-import { defineEventHandler, handleCacheHeaders, isEvent, createEvent, getRequestHeader, splitCookiesString, eventHandler, setHeaders, sendRedirect, proxyRequest, setResponseHeader, send, getResponseStatus, setResponseStatus, setResponseHeaders, getRequestHeaders, createApp, createRouter as createRouter$1, toNodeListener, fetchWithEvent, lazyEventHandler, getQuery as getQuery$1, createError, getResponseStatusText } from 'file:///Users/ruben/GitHub/smartflights-blog/node_modules/h3/dist/index.mjs';
-import { getRequestDependencies, getPreloadLinks, getPrefetchLinks, createRenderer } from 'file:///Users/ruben/GitHub/smartflights-blog/node_modules/vue-bundle-renderer/dist/runtime.mjs';
-import { stringify, uneval } from 'file:///Users/ruben/GitHub/smartflights-blog/node_modules/devalue/index.js';
-import { renderToString } from 'file:///Users/ruben/GitHub/smartflights-blog/node_modules/vue/server-renderer/index.mjs';
-import { renderSSRHead } from 'file:///Users/ruben/GitHub/smartflights-blog/node_modules/@unhead/ssr/dist/index.mjs';
-import { createFetch as createFetch$1, Headers as Headers$1 } from 'file:///Users/ruben/GitHub/smartflights-blog/node_modules/ofetch/dist/node.mjs';
-import destr from 'file:///Users/ruben/GitHub/smartflights-blog/node_modules/destr/dist/index.mjs';
-import { createCall, createFetch } from 'file:///Users/ruben/GitHub/smartflights-blog/node_modules/unenv/runtime/fetch/index.mjs';
-import { createHooks } from 'file:///Users/ruben/GitHub/smartflights-blog/node_modules/hookable/dist/index.mjs';
-import { snakeCase } from 'file:///Users/ruben/GitHub/smartflights-blog/node_modules/scule/dist/index.mjs';
-import { klona } from 'file:///Users/ruben/GitHub/smartflights-blog/node_modules/klona/dist/index.mjs';
-import defu, { defuFn } from 'file:///Users/ruben/GitHub/smartflights-blog/node_modules/defu/dist/defu.mjs';
-import { hash } from 'file:///Users/ruben/GitHub/smartflights-blog/node_modules/ohash/dist/index.mjs';
-import { parseURL, withoutBase, joinURL, getQuery, withQuery } from 'file:///Users/ruben/GitHub/smartflights-blog/node_modules/ufo/dist/index.mjs';
-import { createStorage, prefixStorage } from 'file:///Users/ruben/GitHub/smartflights-blog/node_modules/unstorage/dist/index.mjs';
-import unstorage_47drivers_47fs from 'file:///Users/ruben/GitHub/smartflights-blog/node_modules/unstorage/drivers/fs.mjs';
-import { toRouteMatcher, createRouter } from 'file:///Users/ruben/GitHub/smartflights-blog/node_modules/radix3/dist/index.mjs';
-import { version, unref } from 'file:///Users/ruben/GitHub/smartflights-blog/node_modules/vue/index.mjs';
-import { createServerHead as createServerHead$1 } from 'file:///Users/ruben/GitHub/smartflights-blog/node_modules/unhead/dist/index.mjs';
-import { defineHeadPlugin } from 'file:///Users/ruben/GitHub/smartflights-blog/node_modules/@unhead/shared/dist/index.mjs';
+import { defineEventHandler, handleCacheHeaders, isEvent, createEvent, getRequestHeader, splitCookiesString, eventHandler, setHeaders, sendRedirect, proxyRequest, setResponseHeader, send, getResponseStatus, setResponseStatus, setResponseHeaders, getRequestHeaders, createApp, createRouter as createRouter$1, toNodeListener, fetchWithEvent, lazyEventHandler, getQuery as getQuery$1, createError, getResponseStatusText } from 'file:///Users/ruben/GitHub/redparagon-blog/node_modules/h3/dist/index.mjs';
+import { getRequestDependencies, getPreloadLinks, getPrefetchLinks, createRenderer } from 'file:///Users/ruben/GitHub/redparagon-blog/node_modules/vue-bundle-renderer/dist/runtime.mjs';
+import { stringify, uneval } from 'file:///Users/ruben/GitHub/redparagon-blog/node_modules/devalue/index.js';
+import { renderToString } from 'file:///Users/ruben/GitHub/redparagon-blog/node_modules/vue/server-renderer/index.mjs';
+import { renderSSRHead } from 'file:///Users/ruben/GitHub/redparagon-blog/node_modules/@unhead/ssr/dist/index.mjs';
+import { createFetch as createFetch$1, Headers as Headers$1 } from 'file:///Users/ruben/GitHub/redparagon-blog/node_modules/ofetch/dist/node.mjs';
+import destr from 'file:///Users/ruben/GitHub/redparagon-blog/node_modules/destr/dist/index.mjs';
+import { createCall, createFetch } from 'file:///Users/ruben/GitHub/redparagon-blog/node_modules/unenv/runtime/fetch/index.mjs';
+import { createHooks } from 'file:///Users/ruben/GitHub/redparagon-blog/node_modules/hookable/dist/index.mjs';
+import { snakeCase } from 'file:///Users/ruben/GitHub/redparagon-blog/node_modules/scule/dist/index.mjs';
+import { klona } from 'file:///Users/ruben/GitHub/redparagon-blog/node_modules/klona/dist/index.mjs';
+import defu, { defuFn } from 'file:///Users/ruben/GitHub/redparagon-blog/node_modules/defu/dist/defu.mjs';
+import { hash } from 'file:///Users/ruben/GitHub/redparagon-blog/node_modules/ohash/dist/index.mjs';
+import { parseURL, withoutBase, joinURL, getQuery, withQuery } from 'file:///Users/ruben/GitHub/redparagon-blog/node_modules/ufo/dist/index.mjs';
+import { createStorage, prefixStorage } from 'file:///Users/ruben/GitHub/redparagon-blog/node_modules/unstorage/dist/index.mjs';
+import unstorage_47drivers_47fs from 'file:///Users/ruben/GitHub/redparagon-blog/node_modules/unstorage/drivers/fs.mjs';
+import { toRouteMatcher, createRouter } from 'file:///Users/ruben/GitHub/redparagon-blog/node_modules/radix3/dist/index.mjs';
+import { version, unref } from 'file:///Users/ruben/GitHub/redparagon-blog/node_modules/vue/index.mjs';
+import { createServerHead as createServerHead$1 } from 'file:///Users/ruben/GitHub/redparagon-blog/node_modules/unhead/dist/index.mjs';
+import { defineHeadPlugin } from 'file:///Users/ruben/GitHub/redparagon-blog/node_modules/@unhead/shared/dist/index.mjs';
 
-const r = Object.create(null), t = e => globalThis.process?.env || globalThis._importMeta_.env || globalThis.Deno?.env.toObject() || globalThis.__env__ || (e ? r : globalThis), s = new Proxy(r, { get(e, o) { return t()[o] ?? r[o] }, has(e, o) { const i = t(); return o in i || o in r }, set(e, o, i) { const p = t(!0); return p[o] = i, !0 }, deleteProperty(e, o) { if (!o) return !1; const i = t(!0); return delete i[o], !0 }, ownKeys() { const e = t(!0); return Object.keys(e) } }), E = typeof process < "u" && process.env && "development" || "", d = [["APPVEYOR"], ["AZURE_PIPELINES", "SYSTEM_TEAMFOUNDATIONCOLLECTIONURI"], ["AZURE_STATIC", "INPUT_AZURE_STATIC_WEB_APPS_API_TOKEN"], ["APPCIRCLE", "AC_APPCIRCLE"], ["BAMBOO", "bamboo_planKey"], ["BITBUCKET", "BITBUCKET_COMMIT"], ["BITRISE", "BITRISE_IO"], ["BUDDY", "BUDDY_WORKSPACE_ID"], ["BUILDKITE"], ["CIRCLE", "CIRCLECI"], ["CIRRUS", "CIRRUS_CI"], ["CLOUDFLARE_PAGES", "CF_PAGES", { ci: !0 }], ["CODEBUILD", "CODEBUILD_BUILD_ARN"], ["CODEFRESH", "CF_BUILD_ID"], ["DRONE"], ["DRONE", "DRONE_BUILD_EVENT"], ["DSARI"], ["GITHUB_ACTIONS"], ["GITLAB", "GITLAB_CI"], ["GITLAB", "CI_MERGE_REQUEST_ID"], ["GOCD", "GO_PIPELINE_LABEL"], ["LAYERCI"], ["HUDSON", "HUDSON_URL"], ["JENKINS", "JENKINS_URL"], ["MAGNUM"], ["NETLIFY"], ["NETLIFY", "NETLIFY_LOCAL", { ci: !1 }], ["NEVERCODE"], ["RENDER"], ["SAIL", "SAILCI"], ["SEMAPHORE"], ["SCREWDRIVER"], ["SHIPPABLE"], ["SOLANO", "TDDIUM"], ["STRIDER"], ["TEAMCITY", "TEAMCITY_VERSION"], ["TRAVIS"], ["VERCEL", "NOW_BUILDER"], ["VERCEL", "VERCEL", { ci: !1 }], ["VERCEL", "VERCEL_ENV", { ci: !1 }], ["APPCENTER", "APPCENTER_BUILD_ID"], ["CODESANDBOX", "CODESANDBOX_SSE", { ci: !1 }], ["STACKBLITZ"], ["STORMKIT"], ["CLEAVR"]]; function B() { if (globalThis.process?.env) for (const e of d) { const o = e[1] || e[0]; if (globalThis.process?.env[o]) return { name: e[0].toLowerCase(), ...e[2] } } return globalThis.process?.env?.SHELL === "/bin/jsh" && globalThis.process?.versions?.webcontainer ? { name: "stackblitz", ci: !1 } : { name: "", ci: !1 } } const I = B(), U = I.name; function n(e) { return e ? e !== "false" : !1 } const l = globalThis.process?.platform || "", T = n(s.CI) || I.ci !== !1, a = n(globalThis.process?.stdout && globalThis.process?.stdout.isTTY); n(s.DEBUG); const c = E === "test" || n(s.TEST); n(s.MINIMAL) || T || c || !a; const C = /^win/i.test(l); !n(s.NO_COLOR) && (n(s.FORCE_COLOR) || C && s.TERM !== "dumb" || a && s.TERM && s.TERM === "dumb" || T); const R = (globalThis.process?.versions?.node || "").replace(/^v/, "") || null; Number(R?.split(".")[0]) || null; const Y = globalThis.process || Object.create(null), L = { versions: {} }; new Proxy(Y, { get(e, o) { if (o === "env") return s; if (o in e) return e[o]; if (o in L) return L[o] } }); const _ = !!globalThis.Netlify, O = !!globalThis.EdgeRuntime, D = globalThis.navigator?.userAgent === "Cloudflare-Workers", A = !!globalThis.Deno, u = !!globalThis.__lagon__, N = globalThis.process?.release?.name === "node", S = !!globalThis.Bun || !!globalThis.process?.versions?.bun, b = !!globalThis.fastly, K = [[_, "netlify"], [O, "edge-light"], [D, "workerd"], [A, "deno"], [u, "lagon"], [N, "node"], [S, "bun"], [b, "fastly"]]; function F() { const e = K.find(o => o[0]); if (e) return { name: e[1] } } const g = F(); g?.name || "";
+const r=Object.create(null),t=e=>globalThis.process?.env||globalThis._importMeta_.env||globalThis.Deno?.env.toObject()||globalThis.__env__||(e?r:globalThis),s=new Proxy(r,{get(e,o){return t()[o]??r[o]},has(e,o){const i=t();return o in i||o in r},set(e,o,i){const p=t(!0);return p[o]=i,!0},deleteProperty(e,o){if(!o)return !1;const i=t(!0);return delete i[o],!0},ownKeys(){const e=t(!0);return Object.keys(e)}}),E=typeof process<"u"&&process.env&&"development"||"",d=[["APPVEYOR"],["AZURE_PIPELINES","SYSTEM_TEAMFOUNDATIONCOLLECTIONURI"],["AZURE_STATIC","INPUT_AZURE_STATIC_WEB_APPS_API_TOKEN"],["APPCIRCLE","AC_APPCIRCLE"],["BAMBOO","bamboo_planKey"],["BITBUCKET","BITBUCKET_COMMIT"],["BITRISE","BITRISE_IO"],["BUDDY","BUDDY_WORKSPACE_ID"],["BUILDKITE"],["CIRCLE","CIRCLECI"],["CIRRUS","CIRRUS_CI"],["CLOUDFLARE_PAGES","CF_PAGES",{ci:!0}],["CODEBUILD","CODEBUILD_BUILD_ARN"],["CODEFRESH","CF_BUILD_ID"],["DRONE"],["DRONE","DRONE_BUILD_EVENT"],["DSARI"],["GITHUB_ACTIONS"],["GITLAB","GITLAB_CI"],["GITLAB","CI_MERGE_REQUEST_ID"],["GOCD","GO_PIPELINE_LABEL"],["LAYERCI"],["HUDSON","HUDSON_URL"],["JENKINS","JENKINS_URL"],["MAGNUM"],["NETLIFY"],["NETLIFY","NETLIFY_LOCAL",{ci:!1}],["NEVERCODE"],["RENDER"],["SAIL","SAILCI"],["SEMAPHORE"],["SCREWDRIVER"],["SHIPPABLE"],["SOLANO","TDDIUM"],["STRIDER"],["TEAMCITY","TEAMCITY_VERSION"],["TRAVIS"],["VERCEL","NOW_BUILDER"],["VERCEL","VERCEL",{ci:!1}],["VERCEL","VERCEL_ENV",{ci:!1}],["APPCENTER","APPCENTER_BUILD_ID"],["CODESANDBOX","CODESANDBOX_SSE",{ci:!1}],["STACKBLITZ"],["STORMKIT"],["CLEAVR"]];function B(){if(globalThis.process?.env)for(const e of d){const o=e[1]||e[0];if(globalThis.process?.env[o])return {name:e[0].toLowerCase(),...e[2]}}return globalThis.process?.env?.SHELL==="/bin/jsh"&&globalThis.process?.versions?.webcontainer?{name:"stackblitz",ci:!1}:{name:"",ci:!1}}const I=B(),U=I.name;function n(e){return e?e!=="false":!1}const l=globalThis.process?.platform||"",T=n(s.CI)||I.ci!==!1,a=n(globalThis.process?.stdout&&globalThis.process?.stdout.isTTY);n(s.DEBUG);const c=E==="test"||n(s.TEST);n(s.MINIMAL)||T||c||!a;const C=/^win/i.test(l);!n(s.NO_COLOR)&&(n(s.FORCE_COLOR)||C&&s.TERM!=="dumb"||a&&s.TERM&&s.TERM==="dumb"||T);const R=(globalThis.process?.versions?.node||"").replace(/^v/,"")||null;Number(R?.split(".")[0])||null;const Y=globalThis.process||Object.create(null),L={versions:{}};new Proxy(Y,{get(e,o){if(o==="env")return s;if(o in e)return e[o];if(o in L)return L[o]}});const _=!!globalThis.Netlify,O=!!globalThis.EdgeRuntime,D=globalThis.navigator?.userAgent==="Cloudflare-Workers",A=!!globalThis.Deno,u=!!globalThis.__lagon__,N=globalThis.process?.release?.name==="node",S=!!globalThis.Bun||!!globalThis.process?.versions?.bun,b=!!globalThis.fastly,K=[[_,"netlify"],[O,"edge-light"],[D,"workerd"],[A,"deno"],[u,"lagon"],[N,"node"],[S,"bun"],[b,"fastly"]];function F(){const e=K.find(o=>o[0]);if(e)return {name:e[1]}}const g=F();g?.name||"";
 
 const inlineAppConfig = {};
 
@@ -126,7 +126,7 @@ new Proxy(/* @__PURE__ */ Object.create(null), {
   }
 });
 
-const serverAssets = [{ "baseName": "server", "dir": "/Users/ruben/GitHub/smartflights-blog/server/assets" }];
+const serverAssets = [{"baseName":"server","dir":"/Users/ruben/GitHub/redparagon-blog/server/assets"}];
 
 const assets = createStorage();
 
@@ -138,11 +138,11 @@ const storage = createStorage({});
 
 storage.mount('/assets', assets);
 
-storage.mount('root', unstorage_47drivers_47fs({ "driver": "fs", "readOnly": true, "base": "/Users/ruben/GitHub/smartflights-blog", "ignore": ["**/node_modules/**", "**/.git/**"] }));
-storage.mount('src', unstorage_47drivers_47fs({ "driver": "fs", "readOnly": true, "base": "/Users/ruben/GitHub/smartflights-blog/server", "ignore": ["**/node_modules/**", "**/.git/**"] }));
-storage.mount('build', unstorage_47drivers_47fs({ "driver": "fs", "readOnly": false, "base": "/Users/ruben/GitHub/smartflights-blog/.nuxt", "ignore": ["**/node_modules/**", "**/.git/**"] }));
-storage.mount('cache', unstorage_47drivers_47fs({ "driver": "fs", "readOnly": false, "base": "/Users/ruben/GitHub/smartflights-blog/.nuxt/cache", "ignore": ["**/node_modules/**", "**/.git/**"] }));
-storage.mount('data', unstorage_47drivers_47fs({ "driver": "fs", "base": "/Users/ruben/GitHub/smartflights-blog/.data/kv", "ignore": ["**/node_modules/**", "**/.git/**"] }));
+storage.mount('root', unstorage_47drivers_47fs({"driver":"fs","readOnly":true,"base":"/Users/ruben/GitHub/redparagon-blog","ignore":["**/node_modules/**","**/.git/**"]}));
+storage.mount('src', unstorage_47drivers_47fs({"driver":"fs","readOnly":true,"base":"/Users/ruben/GitHub/redparagon-blog/server","ignore":["**/node_modules/**","**/.git/**"]}));
+storage.mount('build', unstorage_47drivers_47fs({"driver":"fs","readOnly":false,"base":"/Users/ruben/GitHub/redparagon-blog/.nuxt","ignore":["**/node_modules/**","**/.git/**"]}));
+storage.mount('cache', unstorage_47drivers_47fs({"driver":"fs","readOnly":false,"base":"/Users/ruben/GitHub/redparagon-blog/.nuxt/cache","ignore":["**/node_modules/**","**/.git/**"]}));
+storage.mount('data', unstorage_47drivers_47fs({"driver":"fs","base":"/Users/ruben/GitHub/redparagon-blog/.data/kv","ignore":["**/node_modules/**","**/.git/**"]}));
 
 function useStorage(base = "") {
   return base ? prefixStorage(storage, base) : storage;
@@ -534,7 +534,7 @@ function getRouteRulesForPath(path) {
 }
 
 const plugins = [
-
+  
 ];
 
 function defineRenderHandler(handler) {
@@ -602,7 +602,7 @@ const errorHandler = (async function errorhandler(error, event) {
     redirect: "manual"
   }).catch(() => null) : null;
   if (!res) {
-    const { template } = await Promise.resolve().then(function () { return errorDev; });
+    const { template } = await Promise.resolve().then(function () { return errorDev; }) ;
     {
       errorObject.description = errorObject.message;
     }
@@ -623,11 +623,11 @@ const errorHandler = (async function errorhandler(error, event) {
   return send(event, html);
 });
 
-const _lazy_zcVCOs = () => Promise.resolve().then(function () { return renderer$1; });
+const _lazy_WgEJ6s = () => Promise.resolve().then(function () { return renderer$1; });
 
 const handlers = [
-  { route: '/__nuxt_error', handler: _lazy_zcVCOs, lazy: true, middleware: false, method: undefined },
-  { route: '/**', handler: _lazy_zcVCOs, lazy: true, middleware: false, method: undefined }
+  { route: '/__nuxt_error', handler: _lazy_WgEJ6s, lazy: true, middleware: false, method: undefined },
+  { route: '/**', handler: _lazy_WgEJ6s, lazy: true, middleware: false, method: undefined }
 ];
 
 function createNitroApp() {
@@ -787,30 +787,30 @@ parentPort.on("message", async (msg) => {
   }
 });
 
-const _messages = { "appName": "Nuxt", "version": "", "statusCode": 500, "statusMessage": "Server error", "description": "An error occurred in the application and the page could not be served. If you are the application owner, check your server logs for details.", "stack": "" };
-const _render = function ({ messages }) {
-  var __t, __p = '';
-  __p += '<!DOCTYPE html><html><head><title>' +
-    ((__t = (messages.statusCode)) == null ? '' : __t) +
-    ' - ' +
-    ((__t = (messages.statusMessage)) == null ? '' : __t) +
-    ' | ' +
-    ((__t = (messages.appName)) == null ? '' : __t) +
-    '</title><meta charset="utf-8"><meta content="width=device-width,initial-scale=1,minimum-scale=1" name="viewport"><style>.spotlight{background:linear-gradient(45deg, #00DC82 0%, #36E4DA 50%, #0047E1 100%);opacity:0.8;filter:blur(30vh);height:60vh;bottom:-40vh}*,:before,:after{-webkit-box-sizing:border-box;box-sizing:border-box;border-width:0;border-style:solid;border-color:#e0e0e0}*{--tw-ring-inset:var(--tw-empty, );--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgba(14, 165, 233, .5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000}:root{-moz-tab-size:4;-o-tab-size:4;tab-size:4}body{margin:0;font-family:inherit;line-height:inherit}html{-webkit-text-size-adjust:100%;font-family:ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,"Apple Color Emoji","Segoe UI Emoji",Segoe UI Symbol,"Noto Color Emoji";line-height:1.5}h1,p,pre{margin:0}h1{font-size:inherit;font-weight:inherit}pre{font-size:1em;font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,Liberation Mono,Courier New,monospace}.bg-white{--tw-bg-opacity:1;background-color:rgba(255,255,255,var(--tw-bg-opacity))}.bg-black\\/5{--tw-bg-opacity:.05;background-color:rgba(0,0,0,var(--tw-bg-opacity))}.rounded-t-md{border-top-left-radius:.375rem;border-top-right-radius:.375rem}.flex{display:-webkit-box;display:-ms-flexbox;display:-webkit-flex;display:flex}.flex-col{-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;-webkit-flex-direction:column;flex-direction:column}.flex-1{-webkit-box-flex:1;-ms-flex:1 1 0%;-webkit-flex:1 1 0%;flex:1 1 0%}.font-sans{font-family:ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,"Apple Color Emoji","Segoe UI Emoji",Segoe UI Symbol,"Noto Color Emoji"}.font-medium{font-weight:500}.font-light{font-weight:300}.h-auto{height:auto}.text-xl{font-size:1.25rem;line-height:1.75rem}.text-6xl{font-size:3.75rem;line-height:1}.leading-tight{line-height:1.25}.mb-8{margin-bottom:2rem}.mb-6{margin-bottom:1.5rem}.min-h-screen{min-height:100vh}.overflow-y-auto{overflow-y:auto}.p-8{padding:2rem}.px-10{padding-left:2.5rem;padding-right:2.5rem}.pt-14{padding-top:3.5rem}.fixed{position:fixed}.left-0{left:0}.right-0{right:0}.text-black{--tw-text-opacity:1;color:rgba(0,0,0,var(--tw-text-opacity))}.antialiased{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}.z-10{z-index:10}@media (min-width: 640px){.sm\\:text-8xl{font-size:6rem;line-height:1}.sm\\:text-2xl{font-size:1.5rem;line-height:2rem}}@media (prefers-color-scheme: dark){.dark\\:bg-black{--tw-bg-opacity:1;background-color:rgba(0,0,0,var(--tw-bg-opacity))}.dark\\:bg-white\\/10{--tw-bg-opacity:.1;background-color:rgba(255,255,255,var(--tw-bg-opacity))}.dark\\:text-white{--tw-text-opacity:1;color:rgba(255,255,255,var(--tw-text-opacity))}}</style><script>(function(){const t=document.createElement("link").relList;if(t&&t.supports&&t.supports("modulepreload"))return;for(const e of document.querySelectorAll(\'link[rel="modulepreload"]\'))i(e);new MutationObserver(e=>{for(const r of e)if(r.type==="childList")for(const o of r.addedNodes)o.tagName==="LINK"&&o.rel==="modulepreload"&&i(o)}).observe(document,{childList:!0,subtree:!0});function s(e){const r={};return e.integrity&&(r.integrity=e.integrity),e.referrerPolicy&&(r.referrerPolicy=e.referrerPolicy),e.crossOrigin==="use-credentials"?r.credentials="include":e.crossOrigin==="anonymous"?r.credentials="omit":r.credentials="same-origin",r}function i(e){if(e.ep)return;e.ep=!0;const r=s(e);fetch(e.href,r)}})();</script></head><body class="font-sans antialiased bg-white px-10 pt-14 dark:bg-black text-black dark:text-white min-h-screen flex flex-col"><div class="fixed left-0 right-0 spotlight"></div><h1 class="text-6xl sm:text-8xl font-medium mb-6">' +
-    ((__t = (messages.statusCode)) == null ? '' : __t) +
-    '</h1><p class="text-xl sm:text-2xl font-light mb-8 leading-tight">' +
-    ((__t = (messages.description)) == null ? '' : __t) +
-    '</p><div class="bg-white rounded-t-md bg-black/5 dark:bg-white/10 flex-1 overflow-y-auto h-auto"><pre class="text-xl font-light leading-tight z-10 p-8">' +
-    ((__t = (messages.stack)) == null ? '' : __t) +
-    '</pre></div></body></html>';
-  return __p
+const _messages = {"appName":"Nuxt","version":"","statusCode":500,"statusMessage":"Server error","description":"An error occurred in the application and the page could not be served. If you are the application owner, check your server logs for details.","stack":""};
+const _render = function({ messages }) {
+var __t, __p = '';
+__p += '<!DOCTYPE html><html><head><title>' +
+((__t = ( messages.statusCode )) == null ? '' : __t) +
+' - ' +
+((__t = ( messages.statusMessage )) == null ? '' : __t) +
+' | ' +
+((__t = ( messages.appName )) == null ? '' : __t) +
+'</title><meta charset="utf-8"><meta content="width=device-width,initial-scale=1,minimum-scale=1" name="viewport"><style>.spotlight{background:linear-gradient(45deg, #00DC82 0%, #36E4DA 50%, #0047E1 100%);opacity:0.8;filter:blur(30vh);height:60vh;bottom:-40vh}*,:before,:after{-webkit-box-sizing:border-box;box-sizing:border-box;border-width:0;border-style:solid;border-color:#e0e0e0}*{--tw-ring-inset:var(--tw-empty, );--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgba(14, 165, 233, .5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000}:root{-moz-tab-size:4;-o-tab-size:4;tab-size:4}body{margin:0;font-family:inherit;line-height:inherit}html{-webkit-text-size-adjust:100%;font-family:ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,"Apple Color Emoji","Segoe UI Emoji",Segoe UI Symbol,"Noto Color Emoji";line-height:1.5}h1,p,pre{margin:0}h1{font-size:inherit;font-weight:inherit}pre{font-size:1em;font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,Liberation Mono,Courier New,monospace}.bg-white{--tw-bg-opacity:1;background-color:rgba(255,255,255,var(--tw-bg-opacity))}.bg-black\\/5{--tw-bg-opacity:.05;background-color:rgba(0,0,0,var(--tw-bg-opacity))}.rounded-t-md{border-top-left-radius:.375rem;border-top-right-radius:.375rem}.flex{display:-webkit-box;display:-ms-flexbox;display:-webkit-flex;display:flex}.flex-col{-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;-webkit-flex-direction:column;flex-direction:column}.flex-1{-webkit-box-flex:1;-ms-flex:1 1 0%;-webkit-flex:1 1 0%;flex:1 1 0%}.font-sans{font-family:ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,"Apple Color Emoji","Segoe UI Emoji",Segoe UI Symbol,"Noto Color Emoji"}.font-medium{font-weight:500}.font-light{font-weight:300}.h-auto{height:auto}.text-xl{font-size:1.25rem;line-height:1.75rem}.text-6xl{font-size:3.75rem;line-height:1}.leading-tight{line-height:1.25}.mb-8{margin-bottom:2rem}.mb-6{margin-bottom:1.5rem}.min-h-screen{min-height:100vh}.overflow-y-auto{overflow-y:auto}.p-8{padding:2rem}.px-10{padding-left:2.5rem;padding-right:2.5rem}.pt-14{padding-top:3.5rem}.fixed{position:fixed}.left-0{left:0}.right-0{right:0}.text-black{--tw-text-opacity:1;color:rgba(0,0,0,var(--tw-text-opacity))}.antialiased{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}.z-10{z-index:10}@media (min-width: 640px){.sm\\:text-8xl{font-size:6rem;line-height:1}.sm\\:text-2xl{font-size:1.5rem;line-height:2rem}}@media (prefers-color-scheme: dark){.dark\\:bg-black{--tw-bg-opacity:1;background-color:rgba(0,0,0,var(--tw-bg-opacity))}.dark\\:bg-white\\/10{--tw-bg-opacity:.1;background-color:rgba(255,255,255,var(--tw-bg-opacity))}.dark\\:text-white{--tw-text-opacity:1;color:rgba(255,255,255,var(--tw-text-opacity))}}</style><script>(function(){const t=document.createElement("link").relList;if(t&&t.supports&&t.supports("modulepreload"))return;for(const e of document.querySelectorAll(\'link[rel="modulepreload"]\'))i(e);new MutationObserver(e=>{for(const r of e)if(r.type==="childList")for(const o of r.addedNodes)o.tagName==="LINK"&&o.rel==="modulepreload"&&i(o)}).observe(document,{childList:!0,subtree:!0});function s(e){const r={};return e.integrity&&(r.integrity=e.integrity),e.referrerPolicy&&(r.referrerPolicy=e.referrerPolicy),e.crossOrigin==="use-credentials"?r.credentials="include":e.crossOrigin==="anonymous"?r.credentials="omit":r.credentials="same-origin",r}function i(e){if(e.ep)return;e.ep=!0;const r=s(e);fetch(e.href,r)}})();</script></head><body class="font-sans antialiased bg-white px-10 pt-14 dark:bg-black text-black dark:text-white min-h-screen flex flex-col"><div class="fixed left-0 right-0 spotlight"></div><h1 class="text-6xl sm:text-8xl font-medium mb-6">' +
+((__t = ( messages.statusCode )) == null ? '' : __t) +
+'</h1><p class="text-xl sm:text-2xl font-light mb-8 leading-tight">' +
+((__t = ( messages.description )) == null ? '' : __t) +
+'</p><div class="bg-white rounded-t-md bg-black/5 dark:bg-white/10 flex-1 overflow-y-auto h-auto"><pre class="text-xl font-light leading-tight z-10 p-8">' +
+((__t = ( messages.stack )) == null ? '' : __t) +
+'</pre></div></body></html>';
+return __p
 };
 const _template = (messages) => _render({ messages: { ..._messages, ...messages } });
 const template$1 = _template;
 
 const errorDev = /*#__PURE__*/Object.freeze({
-  __proto__: null,
-  template: template$1
+      __proto__: null,
+      template: template$1
 });
 
 const Vue3 = version.startsWith("3");
@@ -840,7 +840,7 @@ function resolveUnrefHeadInput(ref, lastKey = "") {
 
 const VueReactivityPlugin = defineHeadPlugin({
   hooks: {
-    "entries:resolve": function (ctx) {
+    "entries:resolve": function(ctx) {
       for (const entry of ctx.entries)
         entry.resolvedInput = resolveUnrefHeadInput(entry.input);
     }
@@ -869,7 +869,7 @@ function createServerHead(options = {}) {
 
 const unheadPlugins = [];
 
-const appHead = { "meta": [{ "name": "viewport", "content": "width=device-width, initial-scale=1" }, { "charset": "utf-8" }], "link": [], "style": [], "script": [], "noscript": [] };
+const appHead = {"meta":[{"name":"viewport","content":"width=device-width, initial-scale=1"},{"charset":"utf-8"}],"link":[],"style":[],"script":[],"noscript":[]};
 
 const appRootId = "__nuxt";
 
@@ -888,8 +888,8 @@ function publicAssetsURL(...path) {
 
 globalThis.__buildAssetsURL = buildAssetsURL;
 globalThis.__publicAssetsURL = publicAssetsURL;
-const getClientManifest = () => import('file:///Users/ruben/GitHub/smartflights-blog/.nuxt/dist/server/client.manifest.mjs').then((r) => r.default || r).then((r) => typeof r === "function" ? r() : r);
-const getServerEntry = () => import('file:///Users/ruben/GitHub/smartflights-blog/.nuxt/dist/server/server.mjs').then((r) => r.default || r);
+const getClientManifest = () => import('file:///Users/ruben/GitHub/redparagon-blog/.nuxt/dist/server/client.manifest.mjs').then((r) => r.default || r).then((r) => typeof r === "function" ? r() : r);
+const getServerEntry = () => import('file:///Users/ruben/GitHub/redparagon-blog/.nuxt/dist/server/server.mjs').then((r) => r.default || r);
 const getSSRStyles = lazyCachedFunction(() => Promise.resolve().then(function () { return styles$1; }).then((r) => r.default || r));
 const getSSRRenderer = lazyCachedFunction(async () => {
   const manifest = await getClientManifest();
@@ -911,7 +911,7 @@ const getSSRRenderer = lazyCachedFunction(async () => {
     if (process.env.NUXT_VITE_NODE_OPTIONS) {
       renderer.rendererContext.updateManifest(await getClientManifest());
     }
-    return `<${appRootTag}${` id="${appRootId}"`}>${html}</${appRootTag}>`;
+    return `<${appRootTag}${` id="${appRootId}"` }>${html}</${appRootTag}>`;
   }
   return renderer;
 });
@@ -920,7 +920,7 @@ const getSPARenderer = lazyCachedFunction(async () => {
   const spaTemplate = await Promise.resolve().then(function () { return _virtual__spaTemplate; }).then((r) => r.template).catch(() => "");
   const options = {
     manifest,
-    renderToString: () => `<${appRootTag}${` id="${appRootId}"`}>${spaTemplate}</${appRootTag}>`,
+    renderToString: () => `<${appRootTag}${` id="${appRootId}"` }>${spaTemplate}</${appRootTag}>`,
     buildAssetsURL
   };
   const renderer = createRenderer(() => () => {
@@ -946,7 +946,7 @@ const getSPARenderer = lazyCachedFunction(async () => {
     renderToString
   };
 });
-const PAYLOAD_URL_RE = /\/_payload(\.[a-zA-Z0-9]+)?.json(\?.*)?$/;
+const PAYLOAD_URL_RE = /\/_payload(\.[a-zA-Z0-9]+)?.json(\?.*)?$/ ;
 const renderer = defineRenderHandler(async (event) => {
   const nitroApp = useNitroApp();
   const ssrError = event.path.startsWith("/__nuxt_error") ? getQuery$1(event) : null;
@@ -1023,7 +1023,7 @@ const renderer = defineRenderHandler(async (event) => {
       link: getPrefetchLinks(ssrContext, renderer.rendererContext)
     }, headEntryOptions);
     head.push({
-      script: renderPayloadJsonScript({ id: "__NUXT_DATA__", ssrContext, data: ssrContext.payload })
+      script: renderPayloadJsonScript({ id: "__NUXT_DATA__", ssrContext, data: ssrContext.payload }) 
     }, {
       ...headEntryOptions,
       // this should come before another end of body scripts
@@ -1105,11 +1105,11 @@ async function renderInlineStyles(usedModules) {
 }
 function renderPayloadResponse(ssrContext) {
   return {
-    body: stringify(splitPayload(ssrContext).payload, ssrContext._payloadReducers),
+    body: stringify(splitPayload(ssrContext).payload, ssrContext._payloadReducers) ,
     statusCode: getResponseStatus(ssrContext.event),
     statusMessage: getResponseStatusText(ssrContext.event),
     headers: {
-      "content-type": "application/json;charset=utf-8",
+      "content-type": "application/json;charset=utf-8" ,
       "x-powered-by": "Nuxt"
     }
   };
@@ -1141,21 +1141,21 @@ function splitPayload(ssrContext) {
 }
 
 const renderer$1 = /*#__PURE__*/Object.freeze({
-  __proto__: null,
-  default: renderer
+      __proto__: null,
+      default: renderer
 });
 
 const styles = {};
 
 const styles$1 = /*#__PURE__*/Object.freeze({
-  __proto__: null,
-  default: styles
+      __proto__: null,
+      default: styles
 });
 
 const template = "";
 
 const _virtual__spaTemplate = /*#__PURE__*/Object.freeze({
-  __proto__: null,
-  template: template
+      __proto__: null,
+      template: template
 });
 //# sourceMappingURL=index.mjs.map

@@ -1,5 +1,0 @@
-const app_vue_vue_type_style_index_0_lang = ".header{background:var(--white);border-bottom:1px solid #ced2d9;display:flex;left:0;padding:0 var(--space-1);position:fixed;right:0;top:0;z-index:10}.header .header__title{color:var(--black);font-size:var(--font-size-3);font-weight:800;line-height:var(--line-height-1);margin:var(--space-3) 0;padding-left:var(--space-2);text-decoration:none}.footer{display:flex;justify-content:flex-end;padding:0 var(--space-3)}.footer .footer__text{align-items:center;display:flex;font-size:var(--font-size-1);gap:2px;line-height:var(--line-height-1)}@media (min-width:575px){.container{max-width:900px;padding:0 var(--space-4)}main{margin-top:unset}.header{background:unset;border-bottom:none;margin:var(--space-3) 0;padding:var(--space-2) 0;position:unset}.header .header__title{font-size:var(--font-size-5);margin:var(--space-3) 0 var(--space-2)}}";
-export {
-  app_vue_vue_type_style_index_0_lang as default
-};
-//# sourceMappingURL=entry-styles-3.mjs-5f9a0c46.js.map
