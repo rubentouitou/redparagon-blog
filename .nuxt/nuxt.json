@@ -1,9 +1,9 @@
 {
-  "_hash": "E8pTyNWEJ9",
+  "_hash": "NfWB9TwWnJ",
   "project": {
     "rootDir": "/Users/ruben/GitHub/redparagon-blog"
   },
   "versions": {
-    "nuxt": "3.7.0"
+    "nuxt": "3.8.2"
   }
 }
