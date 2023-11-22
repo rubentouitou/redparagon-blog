@@ -10,8 +10,8 @@ const year = (new Date()).getFullYear()
   <header class="header">
     <a class="header__title" href="/">
       <img src="@/logo.png" alt="Logo" width="150" />
-      <span style="color: rgb(187 196 255);
-    margin-top: 9px;
+      <span style="color: #fff;
+    margin-top: 4px;
     margin-left: 10px;
     /* display: contents; */
     /* padding-bottom: 84px; */
@@ -34,7 +34,7 @@ const year = (new Date()).getFullYear()
   position: absolute;
   right: 0;
   top: 0;
-  margin-top: 29px;
+  margin-top: 25px;
   margin-right: 20px;
   color: #fff;
   text-decoration: none;
